@@ -15,14 +15,14 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-
 import Main from './comps/Main'
+
+
 
 function App(){
   return (
     <View>
       <Main />
     </View>
-    )
-}
+
 export default App;
