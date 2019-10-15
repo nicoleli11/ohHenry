@@ -7,14 +7,13 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-import Switch_Top from '../Emily/Switch';
-import Picker1 from '../Ashlynn/Picker';
+import Bot from '../Dora/Bot'
+
 
 function Main(){
   return(
     <View>
-      <Switch_Top />
-      <Picker1 />
+<Bot />
     </View>
   )
 }
