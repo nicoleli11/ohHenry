@@ -17,12 +17,12 @@ import {
 } from 'react-native';
 import Main from './comps/Main'
 
-function App(){
-  return(
-      <View>
-        <Main />
-      </View>
 
-    )
-}
+
+function App(){
+  return (
+    <View>
+      <Main />
+    </View>
+
 export default App;
