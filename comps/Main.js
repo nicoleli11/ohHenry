@@ -1,23 +1,20 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
 import Bot from '../Dora/Bot'
+
+=======
+import {View, Text, Switch} from 'react-native';
+
+import Top from '../Emily/Switch';
 
 
 function Main(){
   return(
     <View>
-<Bot />
+      <Top />
+      <Bot />
+
     </View>
   )
-}
-
-
+};
 
 export default Main;
