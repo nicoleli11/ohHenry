@@ -7,12 +7,12 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-import Picker1 from '../Ashlynn/Picker'
+import Mid from '../Ashlynn/Picker'
 
 function Main(){
   return(
       <View>
-        <Picker1 />
+        <Mid />
       </View>
 
     )
