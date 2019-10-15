@@ -24,5 +24,7 @@ function App(){
     <View>
       <Main />
     </View>
+)
+};
 
 export default App;
