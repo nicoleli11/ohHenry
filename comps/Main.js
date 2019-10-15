@@ -1,24 +1,14 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
-import Switch_Top from '../Emily/Switch';
-import Picker1 from '../Ashlynn/Picker';
+import {View, Text, Switch} from 'react-native';
+
+import Top from '../Emily/Switch';
 
 function Main(){
   return(
     <View>
-      <Switch_Top />
-      <Picker1 />
+      <Top />
     </View>
   )
-}
-
-
+};
 
 export default Main;
