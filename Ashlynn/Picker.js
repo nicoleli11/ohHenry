@@ -4,14 +4,19 @@ import {View, Text, Picker, StyleSheet} from 'react-native';
 
 function Picker1(){
   state= {
-    language:'color1',
+    language:'pick your color'
+  }
+  if(Picker.Item.value == 'color1'){
+    styles.container.backgroundColor = '#DAD'
+  }else if(Picker.Item.value == 'color2') {
+    styles.container.backgroundColor = '#FAD'
   }
   return(
     <View style={styles.container}>
-      <Text>(this.state.language)</Text>
+      <Text>{this.state.language}</Text>
       <Picker
         selectedValue={this.state.language}
-        style={{height: 50, width: 100}}
+        style={{height: 100, width: 200, top:80}}
         onValueChange={(itemValue, itemIndex) =>
           this.setState({language: itemValue})
         }>
@@ -31,7 +36,9 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#9FA8DA',
+    top: 50,
+    margin: 20,
+    padding:20,
   },
 });
 
